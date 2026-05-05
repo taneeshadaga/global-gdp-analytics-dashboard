@@ -102,7 +102,7 @@ def main():
         df = load_and_clean_data(data_file)
     else:
         # Use default sample data
-        default_path = 'world_gdp_data.csv'
+        default_path = 'data/world_gdp_data.csv'
         if os.path.exists(default_path):
             df = load_data(default_path)
         else:
